@@ -45,10 +45,10 @@ public class CheckBox extends CustomView {
 
 		// Set background Color
 		// Color by resource
-		int bacgroundColor = attrs.getAttributeResourceValue(ANDROIDXML,
+		int backgroundColor = attrs.getAttributeResourceValue(ANDROIDXML,
 				"background", -1);
-		if (bacgroundColor != -1) {
-			setBackgroundColor(getResources().getColor(bacgroundColor));
+		if (backgroundColor != -1) {
+			setBackgroundColor(getResources().getColor(backgroundColor));
 		} else {
 			// Color by hexadecimal
 			// Color by hexadecimal
